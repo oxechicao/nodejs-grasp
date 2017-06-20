@@ -1,0 +1,34 @@
+{
+  "name": "nodejs-grasp",
+  "version": "0.0.1",
+  "description": "An implementation of GRASP algorith in NodeJS+Babel+Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chicaothiagogv/nodejs-grasp.git"
+  },
+  "keywords": [
+    "node",
+    "grasp",
+    "algorithm",
+    "api"
+  ],
+  "author": "Chicao Thiago",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chicaothiagogv/nodejs-grasp/issues"
+  },
+  "homepage": "https://github.com/chicaothiagogv/nodejs-grasp#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1"
+  }
+}
