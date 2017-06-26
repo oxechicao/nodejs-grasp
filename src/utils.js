@@ -17,5 +17,8 @@ export default {
         else
           return val
       }, 0)
+  },
+  isVoid(value) {
+    return (!value || value === undefined || value === '')
   }
 }
