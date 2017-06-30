@@ -6,10 +6,11 @@ meta-heurística GRASP.
 
 Para rodar:
 
-> Pré-requisitos
 
-* NodeJS
-* NPM
+## Pre-requirements
+
+* [Nodejs](https://nodejs.org/en/)
+* [npm](https://www.npmjs.com/)
 
 > Instalar as dependẽncias
 
