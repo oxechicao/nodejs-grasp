@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
 })
 
 router.post('/grasp', (req, res) => {
-  res.send(grasp.run(req.body))
+  res.send(grasp.wrapperRun(req.body))
 })
 
 export default router

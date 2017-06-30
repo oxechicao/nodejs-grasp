@@ -20,5 +20,12 @@ export default {
   },
   isVoid(value) {
     return (!value || value === undefined || value === '')
+  },
+  clonar(o) {
+    if (typeof(o) === "undefined") {
+      return false
+    }
+
+    return JSON.parse(JSON.stringify(o))
   }
 }
