@@ -12,7 +12,7 @@ Para rodar:
 * [Nodejs](https://nodejs.org/en/)
 * [npm](https://www.npmjs.com/)
 
-> Instalar as dependẽncias
+> Instalar as dependências
 
 npm install
 
